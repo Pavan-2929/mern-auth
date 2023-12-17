@@ -10,7 +10,7 @@ function Login() {
   const loginHandler = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:8000/login", {
+      const response = await fetch("https://mern-auth-backend-5n35.onrender.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
