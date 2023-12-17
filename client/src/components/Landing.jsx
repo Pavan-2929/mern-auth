@@ -1,7 +1,7 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react'
+import { NavLink } from 'react-router-dom';
 
-function Page() {
+function Landing() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="text-center">
@@ -16,4 +16,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default Landing
